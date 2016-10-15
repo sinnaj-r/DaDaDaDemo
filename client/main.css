@@ -26,3 +26,58 @@ a:hover {
 .inline-input {
   display: inline;
 }
+
+
+/*Startseite CSS*/
+.DaDaDaDemo{    font-size: 26pt;
+    color:crimson;
+
+    width: auto;
+    height: 100%;
+
+
+}
+
+#Kopfzeile {
+    background-color: aqua;
+    overflow: hidden;
+    height: 80px;
+}
+a{color:crimson;}
+
+#Aktuell {
+    clear: left;
+}
+
+#login {
+    font-size: 11pt;
+    float: right;
+}
+
+#Fußzeile {
+    clear:both;
+    font-size: 9pt;
+}
+
+.logindivs{
+    float: right;
+}
+.loginform{
+    float:right;
+    margin-top: 30px;
+}
+.icon {
+    height: 80px;
+    width: auto;
+    margin-right: 10px;
+
+}
+
+.mitte {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.table{
+    display: table;
+}

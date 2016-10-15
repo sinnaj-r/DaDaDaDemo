@@ -4,17 +4,21 @@
 
 <template name="MainLayout">
     <body>
-      <h1><a href="/">Navigation</a></h1>
-      <a href="/login">Zur Login Seite</a>
-      <a href="/gentestdata">Zur GenTestData Seite</a>
+        <div id="Kopfzeile">
 
+            <img class="DaDaDaDemo" id="DaDaDaDemo" src="/Logo.png" />
+            <form class="loginform">
+                {{> LogOutButton}}
+            </form>
+
+        </div>
       {{> yield}}
 
-        <br><br>
+        <div id=Fußzeile>
 
+            Made at <a href="https://jugendhackt.org/">JugendHackt</a>
+            <a href="">Impressum</a>
+            <a href="">Kontakt</a>
+        </div>
     </body>
 </template>
-
-
-
-
