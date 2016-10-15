@@ -11,6 +11,8 @@ Template.DemoSite.helpers({
             return false
         }
     }
+
+
 })
 
 Template.DemoSite.events({
@@ -27,3 +29,6 @@ Template.DemoSite.events({
         Router.go("/")
     }
 })
+
+
+
