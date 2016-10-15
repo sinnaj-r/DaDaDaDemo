@@ -1,3 +1,22 @@
 <template name="hello">
-    <h1>Dies ist die Startseite</h1>
+    <div class="home">
+        <div id="Aktuell">
+            <h2>Aktuell beliebt in deiner Nähe:</h2></div>
+        <div>
+            <div class="table"><img src="/eye.png" class="icon" /><span class="mitte">Erfahre, was in deiner Stadt passiert.</span></div>
+            <div class="table"><img src="/sword.png" class="icon" /><span class="mitte">Finde Mitstreiter!</span></div>
+            <div class="table"><img src="" /><span class="mitte">Kontent, von dem wir nicht nicht wissen, was es wird.</span></div>
+
+        </div>
+
+        <div id="login">
+            <form>
+                {{>loginButtons}}
+            </form>
+
+        </div>
+
+
+
+    </div>
 </template>
