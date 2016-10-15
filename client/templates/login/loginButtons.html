@@ -31,13 +31,12 @@
     {{else}}
     {{#if LogReg}}
     <h3>Login</h3>
-    <form id="login-form" action="#">
+
         <div>
             <input type="text" id="login-email" />
             <input type="password" id="login-password" />
-            <input type="submit" class="button" id="login-button" value="Einloggen" />
+            <a class="btn btn-primary" id="login-button">Einloggen</a>
         </div>
-    </form>
     <a id="toggleLogReg">Registrieren <i class="fa fa-chevron-right"></i></a>
     {{else}}
     <h3>Noch kein Konto ? Registriere dich jetzt</h3>
@@ -60,11 +59,11 @@
     {{#if currentUser}}
     <a id="logOutButton-head" class="btn btn-primary">LogOut</a>
     {{else}}
-    <form id="login-form-head" action="action">
+    <form id="login-form-head">
         <div>
             <input type="text" id="login-email-head" />
             <input type="password" id="login-password-head" />
-            <input type="submit" class="button" id="login-button-head" value="Einloggen" />
+            <a class="btn btn-primary" id="login-button-head" >Einloggen</a>
         </div>
     </form>
     {{/if}}
