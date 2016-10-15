@@ -31,10 +31,12 @@ Router.route('/create_demo', function () {
 
 Router.route('/demo/:_id', {
     data:function () {
-        var item = Events.findOne({
+        console.log(this.params._id)
+        let item = Events.findOne({
             _id: this.params._id
         });
-        if(!item){Router.go("/404")}
+        console.log(item)
+        //if(!item){Router.go("/loadi")}
         return item
     },
     onAfterAction:function(){
@@ -47,14 +49,6 @@ Router.route('/demo/:_id', {
         }
     },
     action:function(){
-        if (this.ready()) {
-            this.render("demoDetail")
-        }
-        else{
-            this.render('loading');
-        }
+        this.render("DemoSite")
     },
-    waitOn: function(){
-        return Meteor.subscribe("Events")
-    }
 });
