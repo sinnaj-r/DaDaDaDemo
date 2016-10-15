@@ -6,6 +6,7 @@ Template.Dashboard.helpers({
         return { teilnehmer: { $in: [Meteor.userId()] } }
     },
     notmyDemosVFilter:function(){
-        return { teilnehmer: { $nin: [Meteor.userId()] } }
+        return { teilnehmer: { $nin: [Meteor.userId()] },
+                 veranstalter: { $nin: [Meteor.userId()] }}
     }
 })
