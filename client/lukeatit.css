@@ -1,0 +1,29 @@
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,div {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  color: #fff;
+  float: left;
+  margin-top: 3px;
+}
+
+.anmelde-part {
+  float: right;
+  padding-right: 20px;
+  margin-top: 11px;
+}
+
+.content-left {
+  float: left;
+  text-align: left;
+}
+
+.content-right {
+  float: right;
+}

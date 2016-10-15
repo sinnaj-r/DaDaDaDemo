@@ -4,16 +4,45 @@
   <title>DaDaDaDemo</title>
  </head>
  <body>
-  <div class="demos">
-      <p>Meine Demos</p>
-      
+
+         <h3>Mein Bereich</h3>
+ 
+      <h5 class="text">Meine Demos</h5>
+      <div class= "demo">
+      <img class= "demobox" src="m" width="100px"/>
+      <img class= "demobox" src="m" width="100px"/>
+      <img class= "demobox" src="m" width="100px"/>
      </div>
-    <div class="teilnahme">
-     <p>Teilnahme an Demos</p>
+     <h5 class= "text">Teilnahme an Demos</h5>
+      <div class="demo">
+        <img class= "demobox" src="m" width="100px"/>
+        <img class= "demobox" src="m" width="100px"/>
      </div>
-     <div>
-     <h3>Entdecke</h3>
-         <p>Beliebt in deiner Nähe</p>
-     </div>
+     <h3 class= "header">Entdecke</h3>
+
+         <h5 class="text">Beliebt in deiner Nähe</h5>
+             <div class="demo">
+             <img class= "demobox" src="m" width="100px"/>
+             <img class= "demobox" src="m" width="100px"/>
+             </div>
+     <style>
+         .demo {
+             overflow:hidden; 
+         }
+         .demobox {
+             float:left;
+         }
+         .header {
+             clear: left;
+             margin-top: 10px;
+         }
+         .text {
+             clear: left;
+             padding-left: 20px;
+             margin-top: 10px;
+         }
+        
+         
+     </style>
  </body>
 </html>

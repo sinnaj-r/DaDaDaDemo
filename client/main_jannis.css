@@ -1,0 +1,9 @@
+.infobox{
+    float:left;
+    margin: 20px;
+}
+.Fusszeile{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}

@@ -14,8 +14,8 @@ Events.attachSchema(new SimpleSchema({
         label: "_id des Ortes, bzw. String Array",
     },
     datum: {
-        type: [Number],
-        label: "Von bis UnixDate",
+        type: String,
+        label: "Einfacher String",
     },
     veranstalter: {
         type: [String],
@@ -55,6 +55,12 @@ veranstalter:["djsfdhskjfhsd","sffdsfdsfsdfsd"],
 teilnehmer:["djsfdhskjfhsd","sffdsfdsfsdfsd"]
 }
 
+Meteor.call("insert_Event",{ueberschrift:"Moinsen",
+beschreibung:"Dies ist ein Keks.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur, dolorum quidem cumque esse modi suscipit voluptas quia maxime et ab provident, sunt molestias at laudantium magnam animi blanditiis laboriosam perspiciatis! Recusandae quas sequi, aperiam aliquam consequatur quia soluta laborum ab totam nihil in necessitatibus velit illum, aspernatur placeat quis.",
+ort:["Kiel","SH"],
+datum:[0,0],
+veranstalter:["djsfdhskjfhsd","sffdsfdsfsdfsd"],
+teilnehmer:["djsfdhskjfhsd","sffdsfdsfsdfsd"]})
 
     ueberschrift:{
         type: String,
