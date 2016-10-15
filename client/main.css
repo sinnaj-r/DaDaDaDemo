@@ -61,10 +61,7 @@ a:hover {
 .box-text {
   font-size: 10pt;
   margin-top: 8px;
-}
-
-.time-tag {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p span {
@@ -73,7 +70,8 @@ p span {
 
 .infobox-content {
   padding: 8px;
-=======
+  overflow: hidden;
+}
 
 /*Startseite CSS*/
 .DaDaDaDemo{    font-size: 26pt;
@@ -101,7 +99,7 @@ a{color:crimson;}
     float: right;
 }
 
-#Fußzeile {
+#Fusszeile {
     clear:both;
     font-size: 9pt;
 }
@@ -127,5 +125,12 @@ a{color:crimson;}
 }
 .table{
     display: table;
->>>>>>> 5c634dc050b35cbde2228cc9b873dd296d1c270e
+}
+
+.time-location {
+  float: left;
+}
+
+.teilnehmer {
+  float: right;
 }
