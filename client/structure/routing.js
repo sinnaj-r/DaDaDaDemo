@@ -34,6 +34,12 @@ Router.route('/create_demo', function () {
 });
 
 
+Router.route('/demo', function () {
+    Session.set("DocumentTitle",'Home');
+    Router.go('/list')
+});
+
+
 Router.route('/demo/:_id', {
     data:function () {
         console.log(this.params._id)
