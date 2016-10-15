@@ -24,15 +24,7 @@ Events.attachSchema(new SimpleSchema({
     teilnehmerzahl:{
         type: Number,
         label: "Teilnehmerzahl",
-        autoValue: function() {
-            var content = this.field("teilnehmer");
-            if (content.isSet) {
-                return content.length;
-            } else {
-                return 0;
-            }
-        },
-        optional: true
+        defaultValue:0
     },
     twitter:{
         type: String,
