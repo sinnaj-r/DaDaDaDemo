@@ -1,7 +1,4 @@
 Template.DemoSite.helpers({
-    "anzahl":function(){
-        return this.teilnehmer.length
-    },
     "teilnehmer":function(){
         return Events.findOne(this._id).teilnehmer.indexOf(Meteor.userId()) >= 0
     }
