@@ -1,67 +1,60 @@
 <template name="Create_demo">
+    <html>
 
+    <head>
+        <meta charset="utf-8">
+        <title>Hallo</title>
+        <link href="../../../client/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="../../../client/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="../../../client/main.css" rel="stylesheet" type="text/css"> </head>
 
+    <body>
+        <div id="content-wrapper">
+            <h1>Demonstration erstellen</h1>
+            <p id="alertTag" style='color:#FF1744;visibility:hidden;"' class="danger">Ung&uuml;ltige Eingabe!</p>
+            <form action="">
+                <label for="name">Name</label>
+                <input id="ueberschrift" type="text" name="name" class="block-input">
+                <label for="category">Kategorie</label>
+                <select name="category" id="kategorie" class="block-input">
+                    <option value="cat1">Cat 1</option>
+                    <option value="cat2">Cat 2</option>
+                </select>
+                <label for="timeRange">Zeitraum (Beginn-Ende)</label>
+                <div name="timeRange" id="zeitraum">
+                    <input type="text" name="datum" id="datum" value="16/10/2016" /> </div>
+                <div>
+                    <label for="city">Stadt*</label>
+                    <input type="text" name="stadt" id="stadt" >
+                    <label for="state">Bundesland*</label>
+                    <select name="state" id="bundesland">
+                        <option value="Baden-Württemberg">Baden-Württemberg</option>
+                        <option value="Bayern">Bayern</option>
+                        <option value="Berlin">Berlin </option>
+                        <option value="Brandenburg">Brandenburg</option>
+                        <option value="Bremen">Bremen </option>
+                        <option value="Hamburg">Hamburg </option>
+                        <option value="Hessen">Hessen</option>
+                        <option value="Mecklenburg-Vorpommern">Mecklenburg-Vorpommern</option>
+                        <option value="Niedersachsen">Niedersachsen</option>
+                        <option value="Nordrhein-Westfalen">Nordrhein-Westfalen</option>
+                        <option value="Rheinland-Pfalz">Rheinland-Pfalz</option>
+                        <option value="Saarland">Saarland</option>
+                        <option value="Sachsen">Sachsen</option>
+                        <option value="Sachsen-Anhalt">Sachsen-Anhalt</option>
+                        <option value="Schleswig-Holstein">Schleswig-Holstein</option>
+                        <option value="Thüringen">Thüringen</option>
+                    </select>
+                </div>
+                <label for="description">Beschreibung*</label>
+                <textarea id="beschreibung" name="description" class="block-input"></textarea>
+                <label for="name">Gib Hier die Hashtags deiner Demo ein </label>
+                <input id="twitter" type="text" name="name" class="block-input">
+                <label>
+                    <input type="checkbox" id="checkbox"><a href="#">Nutzungsbediungen</a> akzeptieren</label> <a style="font-size:30px;" name="create" class="block-input" id="erstellen" href="/list">Erstellen</a> </form>
+            <p style="font-size:10px;"> Die mit * makierten Felder müssen ausgef&uuml;lt werden. </p>
+        </div>
+    </body>
 
-
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hallo</title>
-    <link href="../../../client/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="../../../client/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-    <link href="../../../client/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div id="content-wrapper">
-      <h1>Demonstration erstellen</h1>
-
-        <p id="alertTag" style='color:#FF1744;visibility:hidden;"'  class="danger">Ung&uuml;ltige Eingabe!</p>
-
-
-      <form action="">
-        <label for="name">Name</label>
-        <input id="ueberschrift" type="text" name="name" class="block-input">
-
-        <label for="category">Kategorie</label>
-        <select name="category" id="kategorie" class="block-input">
-          <option value="cat1">Cat 1</option>
-          <option value="cat2">Cat 2</option>
-        </select>
-
-        <label for="timeRange">Zeitraum (Beginn-Ende)</label>
-        <div name="timeRange" id="zeitraum">
-
-          <input type="text" name="datum" id="datum" value="10/24/1984" />
-
-      </div>
-      <div>
-        <label for="city">Stadt*</label>
-        <select name="city" id="stadt">
-          <option value="1">Berlin</option>
-        </select>
-        <label for="state">Bundesland*</label>
-        <select name="state" id="bundesland">
-          <option value="1">Berlin</option>
-          <option value="1">Bayern</option>
-        </select>
-      </div>
-
-      <label for="description">Beschreibung*</label>
-      <textarea id="beschreibung" name="description" class="block-input"></textarea>
-        <label for="name">Gib Hier die Hashtags deiner Demo ein </label>
-      <input id="twitter" type="text" name="name" class="block-input">
-
-      <label><input type="checkbox" id="checkbox" ><a href="#">Nutzungsbediungen</a> akzeptieren</label>
-         <a  style="font-size:30px;" name="create" class="block-input" id="erstellen" href="/list" >Erstellen</a>
-
-
-    </form>
-      <p style="font-size:10px;"> Die mit * makierten Felder müssen ausgef&uuml;lt werden. </p>
-      </div>
-  </body>
-</html>
-
-
-
-
+    </html>
 </template>
