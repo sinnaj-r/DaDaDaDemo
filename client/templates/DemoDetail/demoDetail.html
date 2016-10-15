@@ -1,20 +1,17 @@
-
-
-
 <template name="DemoDetail">
-
-
-    <div class="infobox col-md-3">
-            <div class="infobox-content">
-                <h5 class="box-title">{{ueberschrift}}</h5>
-                <p class="box-text">{{beschreibung}}</p>
+    <div class="infobox">
+        <div class="infobox-content">
+            <h5 class="box-title">{{ueberschrift}}</h5>
+            <p class="box-text">{{beschreibung}}</p>
+            <div class="time-location">
                 <p class="time-tag"><span class="glyphicon glyphicon-time" aria-hidden="true"></span>{{datum.[0]}} -> {{datum.[1]}}</p>
                 <p class="location-tag"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>{{ort.[0]}}, {{ort.[1]}}</p>
             </div>
             <div class="teilnehmer">
-                <p>Teilnehmer:<b> {{teilnehmerzahl}}</b></p>
+                <p>Teilnehmer:</p>
+                <p>{{teilnehmerzahl}}</p>
             </div>
-            <div class="view-more"><a class="view-more-btn" href="/demo/{{_id}}">Mitmachen!</a></div>
         </div>
-
+        <div class="view-more"><a href="/demo/{{_id}}" class="view-more-btn">Mitmachen!</a></div>
+    </div>
 </template>

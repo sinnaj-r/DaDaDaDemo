@@ -6,33 +6,14 @@
     </div>
     <h5 class="text">Demos an denen ich teilnehme</h5>
     <div class="demo">
-        {{> GeneralList filter=myDemosVFilter itemCount=3}}
+        {{> GeneralList filter=myDemosVFilter itemCount=4}}
     </div>
     <h3 class="header">Entdecke</h3>
     <h5 class="text">Beliebt in deiner Nähe</h5>
     <div class="demo">
 
-    {{> GeneralList}}
+    {{> GeneralList filter=notmyDemosVFilter itemCount=4}}
 
     </div>
-    <style>
-        .demo {
-            overflow: hidden;
-        }
 
-        .demobox {
-            float: left;
-        }
-
-        .header {
-            clear: left;
-            margin-top: 10px;
-        }
-
-        .text {
-            clear: left;
-            padding-left: 20px;
-            margin-top: 10px;
-        }
-    </style>
 </template>

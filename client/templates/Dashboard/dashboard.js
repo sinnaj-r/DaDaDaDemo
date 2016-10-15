@@ -4,5 +4,8 @@ Template.Dashboard.helpers({
     },
     myDemosVFilter:function(){
         return { teilnehmer: { $in: [Meteor.userId()] } }
+    },
+    notmyDemosVFilter:function(){
+        return { teilnehmer: { $nin: [Meteor.userId()] } }
     }
 })
