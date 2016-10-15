@@ -17,40 +17,44 @@
       <p id="alertTag" style='color:#FF1744;visibility:hidden;"'  class="danger">Ung&uuml;ltige Eingabe!</p>
 
     <form action="">
-      <label for="name">Name</label>
+      <label for="name">Name der Demo*</label>
       <input id="ueberschrift" type="text" name="name" class="block-input">
 
-      <label for="category">Kategorie</label>
+      <label for="category">Kategorie*</label>
       <select name="category" id="kategorie" class="block-input">
         <option value="cat1">Cat 1</option>
         <option value="cat2">Cat 2</option>
       </select>
 
-      <label for="timeRange">Zeitraum (Beginn-Ende)</label>
+      <label for="timeRange">Zeitraum (Beginn-Ende)*</label>
       <div name="timeRange" id="zeitraum">
 
         <input type="text" name="datum" id="datum" value="10/24/1984" />
 
       </div>
       <div>
-        <label for="city">Stadt</label>
+        <label for="city">Stadt*</label>
         <select name="city" id="stadt">
           <option value="1">Berlin</option>
         </select>
-        <label for="state">Bundesland</label>
+        <label for="state">Bundesland*</label>
         <select name="state" id="bundesland">
           <option value="1">Berlin</option>
           <option value="1">Bayern</option>
         </select>
       </div>
 
-      <label for="description">Beschreibung</label>
+      <label for="description">Beschreibung*</label>
       <textarea id="beschreibung" name="description" class="block-input"></textarea>
+        <label for="name">Gib Hier die Hashtags deiner Demo ein </label>
+      <input id="twitter" type="text" name="name" class="block-input">
 
       <label><input type="checkbox" id="checkbox" ><a href="#">Nutzungsbediungen</a> akzeptieren</label>
-      <a name="create" class="block-input" id="erstellen" href="/list" >Erstellen</a>
+         <a  style="font-size:30px;" name="create" class="block-input" id="erstellen" href="/list" >Erstellen</a>
+
 
     </form>
+      <p style="font-size:10px;"> Die mit * makierten Felder müssen ausgef&uuml;lt werden. </p>
   </body>
 </html>
 
