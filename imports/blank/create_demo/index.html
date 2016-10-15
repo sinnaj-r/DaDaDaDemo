@@ -3,28 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Hallo</title>
+
   </head>
   <body>
     <h1>Demonstration erstellen</h1>
     <form action="">
+      <label for="name">Name</label>
       <input id="ueberschrift" type="text" name="name">
 
+      <label for="category">Kategorie</label>
       <select name="category" id="kategorie">
         <option value="cat1">Cat 1</option>
         <option value="cat2">Cat 2</option>
       </select>
 
+      <label for="description">Beschreibung</label>
       <textarea id="beschreibung" name="description"></textarea>
 
-      <input type="date" name="beginDate">
-      <input type="datettime" name="beginTime">
+      <label for="timeRange">Zeitraum (Beginn-Ende)</label>
+      <div name="timeRange" id="zeitraum">
+        <input type="date" name="beginDate">
+        <input type="datettime" name="beginTime">
 
-      <input type="date" name="endDate">
-      <input type="datettime" name="endTime">
+        <input type="date" name="endDate">
+        <input type="datettime" name="endTime">
+      </div>
 
+      <label for="city">Stadt</label>
       <select name="city" id="stadt">
         <option value="1">Berlin</option>
       </select>
+      <label for="state">Bundesland</label>
       <select name="state" id="bundesland">
         <option value="1">Berlin</option>
         <option value="1">Bayern</option>
