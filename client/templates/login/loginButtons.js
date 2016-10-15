@@ -25,7 +25,7 @@ Template.loginButtons.events({
             }
         })
     },
-    'submit #login-form': function (e, t) {
+    'click #login-button': function (e, t) {
         e.preventDefault();
         // retrieve the input field values
         var username = $('#login-form #login-email').val(),
@@ -95,7 +95,7 @@ Template.loginButtons.helpers({
 
 
 Template.LogOutButton.events({
-    'submit #login-form-head': function (e, t) {
+    'click #login-button-head': function (e, t) {
         e.preventDefault();
         // retrieve the input field values
         var username = $('#login-form-head #login-email-head').val(),
