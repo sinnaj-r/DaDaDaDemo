@@ -15,7 +15,7 @@ Events.attachSchema(new SimpleSchema({
     },
     datum: {
         type: String,
-        label: "Von bis UnixDate",
+        label: "Einfacher String",
     },
     veranstalter: {
         type: [String],
