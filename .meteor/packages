@@ -24,4 +24,4 @@ accounts-password
 aldeed:simple-schema
 aldeed:collection2
 msavin:mongol
-accounts-ui
+session
