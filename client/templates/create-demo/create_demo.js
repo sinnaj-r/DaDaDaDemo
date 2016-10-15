@@ -40,7 +40,7 @@ Template.Create_demo.events({
             veranstalter:[Meteor.userId()],
             teilnehmer:[Meteor.userId()],
             teilnZahl:1,
-            kategorie:ka,
+            kategorie:kat,
             datum:datum,
         }
 
