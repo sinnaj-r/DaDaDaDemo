@@ -57,10 +57,7 @@ a:hover {
 .box-text {
   font-size: 10pt;
   margin-top: 8px;
-}
-
-.time-tag {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p span {
@@ -69,6 +66,10 @@ p span {
 
 .infobox-content {
   padding: 8px;
+<<<<<<< HEAD
+  overflow: hidden;
+=======
+>>>>>>> 2b79a719d2393d66d8b8453ef9b35f50d1611710
 }
 
 /*Startseite CSS*/
@@ -98,7 +99,7 @@ a{color:crimson;}
     float: right;
 }
 
-#Fußzeile {
+#Fusszeile {
     clear:both;
     font-size: 9pt;
 }
@@ -124,4 +125,15 @@ a{color:crimson;}
 }
 .table{
     display: table;
+<<<<<<< HEAD
+}
+
+.time-location {
+  float: left;
+}
+
+.teilnehmer {
+  float: right;
+=======
+>>>>>>> 2b79a719d2393d66d8b8453ef9b35f50d1611710
 }
