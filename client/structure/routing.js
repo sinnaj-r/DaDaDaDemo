@@ -23,6 +23,11 @@ Router.route('/listTest', function () {
     this.render('DemoList');
 });
 
+Router.route('/create_demo', function () {
+    Session.set("DocumentTitle",'Home');
+    this.render('Create_demo');
+});
+
 
 Router.route('/demo/:_id', {
     data:function () {
