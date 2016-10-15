@@ -1,3 +1,4 @@
+import moment from 'moment';
 Template.Create_demo.events({
     'click a#erstellen'(event, instance) {
         console.log("Aallo")
@@ -14,7 +15,8 @@ Template.Create_demo.events({
         let land = $("#bundesland :selected").text();
         let ortV = [stadt, land];
 
-        let datum = $("#datum").val();
+        let datum = moment($("#datum").val(),"DD/MM/YYYY").unix();
+
         let twitter = $("#twitter").val();
         let kat = [$("#kategorie").val()];
 
