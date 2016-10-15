@@ -73,10 +73,11 @@ p span {
 
 .infobox-content {
   padding: 8px;
-=======
+}
 
 /*Startseite CSS*/
-.DaDaDaDemo{    font-size: 26pt;
+.DaDaDaDemo{
+    font-size: 26pt;
     color:crimson;
 
     width: auto;
@@ -127,5 +128,4 @@ a{color:crimson;}
 }
 .table{
     display: table;
->>>>>>> 5c634dc050b35cbde2228cc9b873dd296d1c270e
 }
