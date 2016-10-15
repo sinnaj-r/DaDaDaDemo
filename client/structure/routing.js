@@ -18,6 +18,11 @@ Router.route('/gentestdata', function () {
     this.render('GenTestData');
 });
 
+Router.route('/listTest', function () {
+    Session.set("DocumentTitle",'Home');
+    this.render('DemoList');
+});
+
 
 Router.route('/demo/:_id', {
     data:function () {
