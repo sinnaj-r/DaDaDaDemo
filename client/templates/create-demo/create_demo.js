@@ -20,6 +20,16 @@ Template.Create_demo.events({
 
         let teiln = $("#teilnehmer").val();
 
+        let check = $('#checkbox')[0].checked;
+        console.log(check);
+
+        if(ueber === "" || !ueber || besch === "" || !besch || !check){
+            console.log("Ungueltige Eingabe");
+            $('#alertTag').css('visibility', 'visible');
+            event.preventDefault();
+        }
+        else{
+
 
         obj = {
             ueberschrift:ueber,
@@ -38,9 +48,10 @@ Template.Create_demo.events({
 
         Meteor.call("insert_Event",obj)
 
-
+        }
 
         },
+
     });
 
 
