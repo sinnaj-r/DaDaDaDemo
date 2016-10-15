@@ -1,9 +1,13 @@
 <template name="Dashboard">
     <h3>Mein Bereich</h3>
-    <h5 class="text">Meine Demos</h5>
-    <div class="demo"> <img class="demobox" src="m" width="100px" /> <img class="demobox" src="m" width="100px" /> <img class="demobox" src="m" width="100px" /> </div>
-    <h5 class="text">Teilnahme an Demos</h5>
-    <div class="demo"> <img class="demobox" src="m" width="100px" /> <img class="demobox" src="m" width="100px" /> </div>
+    <h5 class="text">Meine verwalteten Demos</h5>
+    <div class="demo">
+        {{> GeneralList filter=myDemosFilter itemCount=4}}
+    </div>
+    <h5 class="text">Demos an denen ich teilnehme</h5>
+    <div class="demo">
+        {{> GeneralList filter=myDemosVFilter itemCount=3}}
+    </div>
     <h3 class="header">Entdecke</h3>
     <h5 class="text">Beliebt in deiner Nähe</h5>
     <div class="demo">

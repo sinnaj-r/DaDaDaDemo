@@ -1,13 +1,15 @@
 Template.GeneralList.onCreated(function () {
     // Use this.subscribe with the data context reactively
+    this.itemCount = new ReactiveVar()
+    this.filter = new ReactiveVar({})
     this.autorun(() => {
         var dataContext = Template.currentData();
         console.log("Context",dataContext)
         if(dataContext != undefined){
             let itemCount = dataContext.itemCount
             let filter = dataContext.filter
-            Session.set("itemCount",itemCount)
-            Session.set("filter",filter)
+            Template.instance().itemCount.set(itemCount)
+            Template.instance().filter.set(filter)
             console.log("F",filter)
         }
 
@@ -19,13 +21,13 @@ Template.GeneralList.helpers({
             sort:{"teilnehmerzahl":-1,"ueberschrift":1},
         }
         var filter = {}
-        if(Session.get("itemCount") > 0){
-            props["limit"] = Session.get("itemCount")
+        if(Template.instance().itemCount && Template.instance().itemCount.get() > 0){
+            props["limit"] = Template.instance().itemCount.get()
         }
-        if(Session.get("filter") != undefined){
-            filter = Session.get("filter")
+        if(Template.instance().filter && Template.instance().filter.get("filter") != undefined){
+            filter = Template.instance().filter.get()
         }
-        console.log(filter)
+        console.log(Template.instance().itemCount.get(),filter)
         return Events.find(filter,props)
     }
 })
