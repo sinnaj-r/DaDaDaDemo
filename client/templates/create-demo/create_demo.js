@@ -42,27 +42,4 @@ Template.Create_demo.events({
         },
     });
 
-/*Template.Create_demo.onCreated( function(){
-        Console.log("Ha");
-        $('input[name="datum"]').daterangepicker({
-        singleDatePicker: true,
-        showDropdowns: true
-    },
-    function(start, end, label) {
-        var years = moment().diff(start, 'years');
 
-});
-});*/
-
-
-
-/*Template.Create_demo.onCreated(function() {
-        $('input[name="datum"]').daterangepicker({
-        singleDatePicker: true,
-        showDropdowns: true
-    },
-    function(start, end, label) {
-        var years = moment().diff(start, 'years');
-
-});
-});*/
