@@ -131,3 +131,24 @@ Template.LogOutButton.events({
     },
 });
 
+
+Template.signUp.events({
+    'click #create-account-sU' : function(e, t) {
+        e.preventDefault();
+        var username = $('#account-email-sU').val()
+        , password = $('#account-password-sU').val();
+
+        // Trim and validate the input
+        Accounts.createUser({username: username, password : password}, function(err){
+            if (err) {
+                notie.alert(2,"Es ist ein Fehler aufgetreten, bitte überprüfe deine Eingaben.",2)
+            } else {
+                notie.alert(1,"Dein Account wurde erfolgreich erstellt",2)
+                // Success. Account has been created and the user
+                // has logged in successfully.
+            }
+
+        });
+        return false;
+    },
+})

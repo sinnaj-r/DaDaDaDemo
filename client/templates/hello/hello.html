@@ -11,7 +11,10 @@
 
         <div id="login">
             <form>
-                {{>loginButtons}}
+               {{#if currentUser}}
+               {{else}}
+                {{>signUp}}
+               {{/if}}
             </form>
 
         </div>

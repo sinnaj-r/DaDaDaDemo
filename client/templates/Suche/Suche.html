@@ -1,9 +1,7 @@
 <template name="Suche">
     <input id="search_input" class="form-control" type="text" placeholder="Suche...">
         <div class="row">
-            {{#each events}}
-                {{>DemoDetail}}
-            {{/each}}
+            {{> GeneralList filter=filterO}}
         </div>
 
 </template>

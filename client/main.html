@@ -17,7 +17,12 @@
             </form>
 
         </div>
-      {{> yield}}
+        {{#if currentUser}}
+            {{> yield}}
+        {{else}}
+            {{> hello}}
+        {{/if}}
+
 
 
         <div id=Fusszeile>

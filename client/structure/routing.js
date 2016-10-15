@@ -4,8 +4,8 @@ Router.configure({
 
 
 Router.route('/', function () {
-    Session.set("DocumentTitle",'Home');
-    this.render('hello');
+    Session.set("DocumentTitle",'Dashboard');
+    this.render('Dashboard');
 });
 
 Router.route('/login', function () {
@@ -25,7 +25,7 @@ Router.route('/gentestdata', function () {
 
 Router.route('/list', function () {
     Session.set("DocumentTitle",'Home');
-    this.render('DemoList');
+    this.render('GeneralList');
 });
 
 Router.route('/create_demo', function () {
