@@ -17,7 +17,7 @@ Events.attachSchema(new SimpleSchema({
         type: [Number],
         label: "Von bis UnixDate",
     },
-    valueOferanstalter: {
+    veranstalter: {
         type: [String],
         label: "Array aus den Veranstalter _id's",
     },
