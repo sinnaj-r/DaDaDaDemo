@@ -10,6 +10,9 @@ Template.DemoSite.helpers({
         else{
             return false
         }
+    },
+     "twitterO":function(){
+        return this.twitter.replace('#','');
     }
 
 
