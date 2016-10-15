@@ -5,13 +5,13 @@ Meteor.methods({
         }
         Event.insert(data)
     },
-    "update_Vokabeln":function(id,data){
+    "update_Event":function(id,data){
         if(!(Meteor.userId()) && data.userId.veranstalter.indexOf(Meteor.userId()) >= 0){
             throw new Meteor.Error("not-authorized");
         }
         Event.update(id,{$set:data})
     },
-    "delete_Vokabeln":function(id){
+    "delete_Event":function(id){
         if(!(Meteor.userId()) && data.userId.veranstalter.indexOf(Meteor.userId()) >= 0){
             throw new Meteor.Error("not-authorized");
         }
