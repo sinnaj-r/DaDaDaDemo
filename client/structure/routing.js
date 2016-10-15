@@ -38,7 +38,7 @@ Router.route('/demo/:_id', {
     },
     action:function(){
         if (this.ready()) {
-            this.render("demoDetail")
+            this.render("DemoSite")
         }
         else{
             this.render('loading');
