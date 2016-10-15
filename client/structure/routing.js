@@ -18,7 +18,7 @@ Router.route('/gentestdata', function () {
     this.render('GenTestData');
 });
 
-Router.route('/listTest', function () {
+Router.route('/list', function () {
     Session.set("DocumentTitle",'Home');
     this.render('DemoList');
 });
