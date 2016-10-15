@@ -45,14 +45,7 @@ h1,h2,h3,h4,h5,h6,p,span,div {
   color: #fff;
 }
 
-.feature p {
-}
-
-.image-holder {
-  width: 68px;
-  height: 68px;
-}
-
-.image-holder img {
-  width: 100%;
+.table .icon {
+  margin-right: 20px;
+  width: 50px;
 }
