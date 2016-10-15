@@ -1,27 +1,34 @@
-Template.create_demo.events({
-    'click button'(event, instance) {
+Template.Create_demo.events({
+    'click a#erstellen'(event, instance) {
+        console.log("Aallo")
         let ueber = $("#ueberschrift").val();
-        let besch = $("beschreibung").val();
+        let besch = $("#beschreibung").val();
 
-        let ortS = $("stadt").val();
-        let ortB = $("bundesland").val();
+        console.log("-----#########")
+        console.log(besch);
+
+        let ortS = $("#stadt").val();
+        let ortB = $("#bundesland").val();
         ortVar = [ortS,ortB];
 
-        let datum = $("datum").val();
-        let twitter = $("twitter").val();
-        let kat = $("kategorie").val();
-        let teiln = $("teilnehmer").val();
+        let datum = $("#datum").val();
+        let twitter = $("#twitter").val();
+        let kat = [$("#kategorie").val()];
+
+        console.log(kat);
+
+        let teiln = $("#teilnehmer").val();
 
 
         obj = {
             ueberschrift:ueber,
             beschreibung:besch,
             ort:ortVar,
-            datum:datum,
             veranstalter:[Meteor.userId()],
             teilnehmer:[],
             teilnZahl:0,
-            kategorie:kat
+            kategorie:kat,
+            datum:[1233455],
         }
 
         if( twitter !== "" && twitter){
