@@ -28,8 +28,8 @@ Template.loginButtons.events({
     'click #login-button': function (e, t) {
         e.preventDefault();
         // retrieve the input field values
-        var username = $('#login-form #login-email').val(),
-            password = $('#login-form #login-password').val();
+        var username = $('#login-email').val(),
+            password = $('#login-password').val();
 
         // Trim and validate your fields here....
 
@@ -51,10 +51,10 @@ Template.loginButtons.events({
 
         return false;
     },
-    'submit #register-form' : function(e, t) {
+    'click #create-account' : function(e, t) {
         e.preventDefault();
-        var username = $('#register-form #account-email').val()
-        , password = $('#register-form #account-password').val();
+        var username = $('#account-email').val()
+        , password = $('#account-password').val();
 
         // Trim and validate the input
         Accounts.createUser({username: username, password : password}, function(err){
@@ -98,8 +98,8 @@ Template.LogOutButton.events({
     'click #login-button-head': function (e, t) {
         e.preventDefault();
         // retrieve the input field values
-        var username = $('#login-form-head #login-email-head').val(),
-            password = $('#login-form-head #login-password-head').val();
+        var username = $('#login-email-head').val(),
+            password = $('#login-password-head').val();
 
         // Trim and validate your fields here....
 

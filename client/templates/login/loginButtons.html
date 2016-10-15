@@ -5,7 +5,6 @@
 <!--    <a class="button expanded secondary" onClick='$(".reveal .close-button").trigger("click")' href="/einstellungen"><i class="fa fa-cogs"></i> Einstellungen</a>-->
     <a id="logOutButton" class="btn btn-primary">LogOut</a>
     {{else}}
-    <form>
         <div class="row">
             <div class="small-12 columns">
                 <label>Altes Passwort
@@ -26,7 +25,6 @@
                 <a id="PWCAbbr" class="btn btn-default">Abbrechen</a>
             </div>
         </div>
-    </form>
     {{/if}}
     {{else}}
     {{#if LogReg}}
@@ -40,13 +38,11 @@
     <a id="toggleLogReg">Registrieren <i class="fa fa-chevron-right"></i></a>
     {{else}}
     <h3>Noch kein Konto ? Registriere dich jetzt</h3>
-    <form id="register-form">
         <div>
             <input type="text" id="account-email" />
             <input type="password" id="account-password" />
-            <input type="submit" class="button" id="create-account" value="Account erstellen" />
+            <a class="btn btn-primary" id="create-account" >Account erstellen</a>
         </div>
-    </form>
     <a id="toggleLogReg">Konto bereits vorhanden ? Login <i class="fa fa-chevron-right"></i></a>
     {{/if}}
     {{/if}}
@@ -59,12 +55,10 @@
     {{#if currentUser}}
     <a id="logOutButton-head" class="btn btn-primary">LogOut</a>
     {{else}}
-    <form id="login-form-head">
         <div>
             <input type="text" id="login-email-head" />
             <input type="password" id="login-password-head" />
             <a class="btn btn-primary" id="login-button-head" >Einloggen</a>
         </div>
-    </form>
     {{/if}}
 </template>
