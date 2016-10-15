@@ -8,8 +8,8 @@ Template.Create_demo.events({
 
 
 
-        let stadtID = $("#stadt").val();
-        let stadt = $("#stadt :selected").text();
+
+        let stadt = $("#stadt").val();
         let landID = $("#bundesland").val();
         let land = $("#bundesland :selected").text();
         let ortV = [stadt, land];
@@ -40,7 +40,7 @@ Template.Create_demo.events({
             veranstalter:[Meteor.userId()],
             teilnehmer:[Meteor.userId()],
             teilnZahl:1,
-            kategorie:kat,
+            kategorie:ka,
             datum:datum,
         }
 
