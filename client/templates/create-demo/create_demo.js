@@ -39,7 +39,7 @@ Template.Create_demo.events({
             ort:ortV,
             veranstalter:[Meteor.userId()],
             teilnehmer:[Meteor.userId()],
-            teilnZahl:1,
+            teilnehmerzahl:1,
             kategorie:kat,
             datum:datum,
         }
