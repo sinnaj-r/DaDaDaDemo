@@ -18,8 +18,8 @@ Template.hello.helpers({
     return Template.instance().counter.get();
   },
     alleDaten() {
-        //return col.find({});
-        return "Hallo";
+        return Events.find({});
+        //return "Hallo";
     },
 });
 

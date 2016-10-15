@@ -15,7 +15,7 @@
 <template name="hello">
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
-    <p>Alle Daten: {{alleDaten}}</p>
+    <p>Alle Daten: {{#each alleDaten}}{{ueberschrift}}{{/each}}</p>
 </template>
 
 <template name="info">
