@@ -1,9 +1,9 @@
 <template name="loginButtons">
     {{#if currentUser}}
     {{#if PWC}}
-    <a id="PWCButton" class="button expanded secondary">Passwort ändern</a>
+    <a id="PWCButton" class="btn btn-default">Passwort ändern</a>
 <!--    <a class="button expanded secondary" onClick='$(".reveal .close-button").trigger("click")' href="/einstellungen"><i class="fa fa-cogs"></i> Einstellungen</a>-->
-    <a id="logOutButton" class="button expanded success">LogOut</a>
+    <a id="logOutButton" class="btn btn-primary">LogOut</a>
     {{else}}
     <form>
         <div class="row">
@@ -20,10 +20,10 @@
         </div>
         <div class="row">
             <div class="small-6 columns">
-                <a id="PWCSpeichern" class="button expanded success">Speichern</a>
+                <a id="PWCSpeichern" class="btn btn-primary">Speichern</a>
             </div>
             <div class="small-6 columns">
-                <a id="PWCAbbr" class="button expanded secondary">Abbrechen</a>
+                <a id="PWCAbbr" class="btn btn-default">Abbrechen</a>
             </div>
         </div>
     </form>
@@ -31,7 +31,7 @@
     {{else}}
     {{#if LogReg}}
     <h3>Login</h3>
-    <form id="login-form" action="action">
+    <form id="login-form" action="#">
         <div>
             <input type="text" id="login-email" />
             <input type="password" id="login-password" />
@@ -41,7 +41,7 @@
     <a id="toggleLogReg">Registrieren <i class="fa fa-chevron-right"></i></a>
     {{else}}
     <h3>Noch kein Konto ? Registriere dich jetzt</h3>
-    <form id="register-form" action="action">
+    <form id="register-form">
         <div>
             <input type="text" id="account-email" />
             <input type="password" id="account-password" />
@@ -53,3 +53,19 @@
     {{/if}}
 </template>
 
+
+
+
+<template name="LogOutButton">
+    {{#if currentUser}}
+    <a id="logOutButton-head" class="btn btn-primary">LogOut</a>
+    {{else}}
+    <form id="login-form-head" action="#">
+        <div>
+            <input type="text" id="login-email-head" />
+            <input type="password" id="login-password-head" />
+            <input type="submit" class="button" id="login-button-head" value="Einloggen" />
+        </div>
+    </form>
+    {{/if}}
+</template>

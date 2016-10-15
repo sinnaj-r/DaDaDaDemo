@@ -7,10 +7,10 @@
 <body>
 
 
-
     <div id="Kopfzeile">
 
         <img class="DaDaDaDemo" id="DaDaDaDemo" src="../Logo/Logo.png"/>
+        <span id="besch" text-align: center>DaDaDaDemos - Die Demoübersicht Deutschlands</span>
        <form class="loginform">
         <div class="logindivs"> Passwort
             <p><input type="password"></p>
@@ -23,7 +23,21 @@
         </div>
 
 
+    <div>
+        <div id="login">
+        <form>
+        <p><b>Sign Up</b></p>
+        <p>Username</p>
+        <p><input type="text" name="username"></p>
+        <p>Mail</p>
+        <p><input type="text" name="e-Mail Adresse"></p>
+        <p>Passwort</p>
+        <p><input type="password" name="Passwort"></p>
+        <p>Passwort bestätigen</p>
+        <p><input type="password"></p>
+        </form>
 
+        </div>
     <div>
         <div class="table"><img src="../Logo/eye.png" class="icon"/><span class="mitte">Erfahre, was in deiner Stadt passiert.</span></div>
         <div class="table"><img src="../Logo/sword.png" class="icon"/><span class="mitte">Finde Mitstreiter!</span></div>
@@ -31,18 +45,6 @@
 
     </div>
 
-    <div id="login">
-        <form>
-        <p><b>Sign Up</b></p>
-        <p>Username</p>
-        <p><input type="text" name="username"></p>
-        <p>Mail</p>
-        <p><input type="text" name="E-Mail Adresse"></p>
-        <p>Passwort</p>
-        <p><input type="password" name="Passwort"></p>
-        <p>Passwort bestätigen</p>
-        <p><input type="password"></p>
-        </form>
 
     </div>
     
@@ -51,18 +53,15 @@
  <h2>Aktuell beliebt in deiner Nähe:</h2></div>
 
 
-    <div id=Fußzeile>
+    <div id="Footline">
 
 Made at <a href="https://jugendhackt.org/">JugendHackt</a>
-        <a href="">Impressum</a>
+        <a href="../Impressum.html">Impressum</a>
         <a href="">Kontakt</a>
      </div>
 
 <style>
-    .DaDaDaDemo{    font-size: 26pt;
-                    color:crimson;
-
-                    width: auto;
+    .DaDaDaDemo{    width: auto;
                     height: 100%;
 
 
@@ -71,7 +70,13 @@ Made at <a href="https://jugendhackt.org/">JugendHackt</a>
     #Kopfzeile {
         background-color: aqua;
         overflow: hidden;
-        height: 80px;
+        height: 120px;
+    }
+    #besch {
+        font-size: 18pt;
+        font-variant-position: super;
+        text-align: center;
+
     }
     a{color:crimson;}
 
@@ -84,9 +89,9 @@ Made at <a href="https://jugendhackt.org/">JugendHackt</a>
         float: right;
     }
 
-    #Fußzeile {
+    #Footline {
         clear:both;
-        font-size: 9pt;
+        font-size: pt;
     }
 
     .logindivs{

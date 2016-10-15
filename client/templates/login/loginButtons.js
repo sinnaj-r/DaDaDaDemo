@@ -91,3 +91,43 @@ Template.loginButtons.helpers({
         return Number(Session.get("PWC"))
     }
 })
+
+
+
+Template.LogOutButton.events({
+    'submit #login-form-head': function (e, t) {
+        e.preventDefault();
+        // retrieve the input field values
+        var username = $('#login-form-head #login-email-head').val(),
+            password = $('#login-form-head #login-password-head').val();
+
+        // Trim and validate your fields here....
+
+        // If validation passes, supply the appropriate fields to the
+        // Meteor.loginWithPassword() function.
+        Meteor.loginWithPassword(username, password, function (err) {
+            if (err){
+                notie.alert(2,"Es ist ein Fehler aufgetreten, bitte überprüfe deine Eingaben.",2)
+            }
+            // The user might not have been found, or their passwword
+            // could be incorrect. Inform the user that their
+            // login attempt has failed.
+            else{
+                notie.alert(1,"Du wurdest erfolgreich eingeloggt",2)
+            }
+            // The user has been logged in.
+        });
+
+
+        return false;
+    },
+    "click #logOutButton-head":function(e){
+        e.preventDefault();
+        notie.alert(1,"Du wurdest erfolgreich ausgeloggt",2)
+        Meteor.logout()
+
+
+
+    },
+});
+
