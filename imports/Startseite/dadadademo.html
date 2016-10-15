@@ -18,23 +18,22 @@
         <div class="logindivs"> Username
            <p><input type="text"></p>
         </div>
-
           </form>
 
         </div>
 
 
+
     <div>
-    <div id="themen">
-        <p><img src="" />Erfahre, was in deiner Stadt passiert.</p>
-        <p><img src="" />Finde Mitstreiter!</p>
-        <p><img src="" />Kontent, von dem wir nocht nicht wissen, was es wird.</p>
+        <div class="table"><img src="../Logo/eye.png" class="icon"/><span class="mitte">Erfahre, was in deiner Stadt passiert.</span></div>
+        <div class="table"><img src="../Logo/sword.png" class="icon"/><span class="mitte">Finde Mitstreiter!</span></div>
+        <div class="table"><img src="" /><span class="mitte">Kontent, von dem wir nicht nicht wissen, was es wird.</span></div>
 
     </div>
 
     <div id="login">
         <form>
-        <p>Sign Up</p>
+        <p><b>Sign Up</b></p>
         <p>Username</p>
         <p><input type="text" name="username"></p>
         <p>Mail</p>
@@ -46,7 +45,7 @@
         </form>
 
     </div>
-    </div>
+    
 
  <div id="Aktuell">
  <h2>Aktuell beliebt in deiner Nähe:</h2></div>
@@ -76,11 +75,6 @@ Made at <a href="https://jugendhackt.org/">JugendHackt</a>
     }
     a{color:crimson;}
 
-    #themen {
-        font-size: 14pt;
-        float: left;
-    }
-
     #Aktuell {
         clear: left;
     }
@@ -100,6 +94,21 @@ Made at <a href="https://jugendhackt.org/">JugendHackt</a>
     }
     .loginform{
         float:right;
+    }
+    .icon {
+        height: 80px; 
+        width: auto;
+        margin-right: 10px;
+        
+    }
+    
+    .mitte {
+            display: table-cell;
+            vertical-align: middle;
+        
+    }
+    .table{
+        display: table;
     }
     </style>
 
