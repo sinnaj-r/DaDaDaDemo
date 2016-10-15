@@ -33,6 +33,11 @@ Router.route('/create_demo', function () {
     this.render('Create_demo');
 });
 
+Router.route('/dashboard', function () {
+    Session.set("DocumentTitle",'Home');
+    this.render('Dashboard');
+});
+
 
 Router.route('/demo/:_id', {
     data:function () {
