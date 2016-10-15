@@ -36,12 +36,12 @@ Events.attachSchema(new SimpleSchema({
     twitter:{
         type: String,
         label: "Twitter Hashtag",
-        required:false
+        optional: true
     },
     kategorie:{
         type: [String],
         label: "Array der Kategorien",
-        required:false
+        optional: true
     },
     teilnehmer:{
         type: [String],
