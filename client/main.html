@@ -2,28 +2,19 @@
   <title>DaDaDaDemo</title>
 </head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
+<template name="MainLayout">
+    <body>
+      <h1><a href="/">Navigation</a></h1>
+      <a href="/login">Zur Login Seite</a>
+      <a href="/gentestdata">Zur GenTestData Seite</a>
 
-  {{> hello}}
-  {{> GenTestData}}
-    <br><br>
-  {{> loginButtons}}
+      {{> yield}}
 
-</body>
+        <br><br>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-    <p>Alle Daten: {{#each alleDaten}}{{ueberschrift}}{{/each}}</p>
+    </body>
 </template>
 
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
-</template>
+
+
+
