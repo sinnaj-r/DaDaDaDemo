@@ -1,6 +1,14 @@
 <template name="DemoSite">
+    {{#if ami_admin}}
+    <div class="alert alert-success" role="alert">Du bist Admin!</div>
+    {{/if}}
     <h1>{{ueberschrift}}</h1>
     <h3>Teilnehmer:{{teilnehmerzahl}}</h3>
     <p>{{beschreibung}}</p>
-    <a id="join" class="btn {{#if teilnehmer}}btn-danger{{else}}btn-default{{/if}} ">{{#if teilnehmer}}Ich möchte doch nicht teilnehmen{{else}}Ich möchte Teilnehmen{{/if}}</a>
+    <a id="join" class="btn {{#if teilnehmer}}btn-warning{{else}}btn-default{{/if}} ">{{#if teilnehmer}}Ich möchte doch nicht teilnehmen{{else}}Ich möchte Teilnehmen{{/if}}</a>
+    {{#if ami_admin}}
+    <a id="remove_demo_button" type="button" class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Demo Löschen
+    </a>
+    {{/if}}
 </template>

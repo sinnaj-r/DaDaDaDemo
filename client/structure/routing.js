@@ -13,6 +13,11 @@ Router.route('/login', function () {
     this.render('loginButtons');
 });
 
+Router.route('/suche', function () {
+    Session.set("DocumentTitle",'Suche');
+    this.render('Suche');
+});
+
 Router.route('/gentestdata', function () {
     Session.set("DocumentTitle",'Home');
     this.render('GenTestData');
@@ -26,6 +31,12 @@ Router.route('/list', function () {
 Router.route('/create_demo', function () {
     Session.set("DocumentTitle",'Home');
     this.render('Create_demo');
+});
+
+
+Router.route('/demo', function () {
+    Session.set("DocumentTitle",'Home');
+    Router.go('/list')
 });
 
 

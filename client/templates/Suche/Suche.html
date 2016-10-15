@@ -1,0 +1,9 @@
+<template name="Suche">
+    <input id="search_input" type="text" placeholder="Suche...">
+        <div class="row">
+            {{#each events}}
+                {{>DemoDetail}}
+            {{/each}}
+        </div>
+
+</template>
