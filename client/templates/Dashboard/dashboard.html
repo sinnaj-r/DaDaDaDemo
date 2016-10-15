@@ -1,5 +1,6 @@
 <template name="Dashboard">
     <h3>Mein Bereich</h3>
+    {{> loginButtons}}
     <h5 class="text">Meine verwalteten Demos</h5>
     <div class="demo">
         {{> GeneralList filter=myDemosFilter itemCount=4}}
