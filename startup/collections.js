@@ -10,8 +10,8 @@ Events.attachSchema(new SimpleSchema({
         label: "Beschreibung",
     },
     ort: {
-        type: String,
-        label: "_id des Ortes",
+        type: [String],
+        label: "_id des Ortes, bzw. String Array",
     },
     datum: {
         type: [Number],
