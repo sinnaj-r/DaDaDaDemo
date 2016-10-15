@@ -1,0 +1,55 @@
+<template name="loginButtons">
+    {{#if currentUser}}
+    {{#if PWC}}
+    <a id="PWCButton" class="button expanded secondary">Passwort ändern</a>
+<!--    <a class="button expanded secondary" onClick='$(".reveal .close-button").trigger("click")' href="/einstellungen"><i class="fa fa-cogs"></i> Einstellungen</a>-->
+    <a id="logOutButton" class="button expanded success">LogOut</a>
+    {{else}}
+    <form>
+        <div class="row">
+            <div class="small-12 columns">
+                <label>Altes Passwort
+                    <input id="oldPW" type="password">
+                </label>
+            </div>
+            <div class="small-12 columns">
+                <label>Neues Passwort
+                    <input id="newPW" type="password">
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-6 columns">
+                <a id="PWCSpeichern" class="button expanded success">Speichern</a>
+            </div>
+            <div class="small-6 columns">
+                <a id="PWCAbbr" class="button expanded secondary">Abbrechen</a>
+            </div>
+        </div>
+    </form>
+    {{/if}}
+    {{else}}
+    {{#if LogReg}}
+    <h3>Login</h3>
+    <form id="login-form" action="action">
+        <div>
+            <input type="text" id="login-email" />
+            <input type="password" id="login-password" />
+            <input type="submit" class="button" id="login-button" value="Einloggen" />
+        </div>
+    </form>
+    <a id="toggleLogReg">Registrieren <i class="fa fa-chevron-right"></i></a>
+    {{else}}
+    <h3>Noch kein Konto ? Registriere dich jetzt</h3>
+    <form id="register-form" action="action">
+        <div>
+            <input type="text" id="account-email" />
+            <input type="password" id="account-password" />
+            <input type="submit" class="button" id="create-account" value="Account erstellen" />
+        </div>
+    </form>
+    <a id="toggleLogReg">Konto bereits vorhanden ? Login <i class="fa fa-chevron-right"></i></a>
+    {{/if}}
+    {{/if}}
+</template>
+
