@@ -1,5 +1,7 @@
 <head>
   <title>DaDaDaDemo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
 </head>
 
 <template name="MainLayout">
@@ -7,6 +9,9 @@
         <div id="Kopfzeile">
 
             <img class="DaDaDaDemo" id="DaDaDaDemo" src="/Logo.png" />
+            <a class="menu_item" href="/create_demo">Neue Demo</a>
+            <a class="menu_item" href="/list">Liste</a>
+            <a class="menu_item" href="/suche"><i class="glyphicon glyphicon-search"></i></a>
             <form class="loginform">
                 {{> LogOutButton}}
             </form>

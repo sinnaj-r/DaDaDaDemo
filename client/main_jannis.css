@@ -7,3 +7,11 @@
     bottom: 0;
     left: 5px;
 }
+
+body, html{
+    min-height: 100%;
+}
+.menu_item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
