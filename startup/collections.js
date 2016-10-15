@@ -11,7 +11,11 @@ Events.attachSchema(new SimpleSchema({
     },
     ort: {
         type: [String],
+<<<<<<< HEAD
         label: "_id des Ortes",
+=======
+        label: "_id des Ortes, bzw. String Array",
+>>>>>>> origin/master
     },
     datum: {
         type: [Number],
