@@ -13,6 +13,11 @@ Router.route('/login', function () {
     this.render('loginButtons');
 });
 
+Router.route('/suche', function () {
+    Session.set("DocumentTitle",'Suche');
+    this.render('Suche');
+});
+
 Router.route('/gentestdata', function () {
     Session.set("DocumentTitle",'Home');
     this.render('GenTestData');
