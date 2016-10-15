@@ -12,45 +12,47 @@
     <link href="../../../client/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Demonstration erstellen</h1>
+    <div id="content-wrapper">
+      <h1>Demonstration erstellen</h1>
 
-      <p id="alertTag" style='color:#FF1744;visibility:hidden;"'  class="danger">Ung&uuml;ltige Eingabe!</p>
+        <p id="alertTag" style='color:#FF1744;visibility:hidden;"'  class="danger">Ung&uuml;ltige Eingabe!</p>
 
-    <form action="">
-      <label for="name">Name</label>
-      <input id="ueberschrift" type="text" name="name" class="block-input">
+      <form action="">
+        <label for="name">Name</label>
+        <input id="ueberschrift" type="text" name="name" class="block-input">
 
-      <label for="category">Kategorie</label>
-      <select name="category" id="kategorie" class="block-input">
-        <option value="cat1">Cat 1</option>
-        <option value="cat2">Cat 2</option>
-      </select>
-
-      <label for="timeRange">Zeitraum (Beginn-Ende)</label>
-      <div name="timeRange" id="zeitraum">
-
-        <input type="text" name="datum" id="datum" value="10/24/1984" />
-
-      </div>
-      <div>
-        <label for="city">Stadt</label>
-        <select name="city" id="stadt">
-          <option value="1">Berlin</option>
+        <label for="category">Kategorie</label>
+        <select name="category" id="kategorie" class="block-input">
+          <option value="cat1">Cat 1</option>
+          <option value="cat2">Cat 2</option>
         </select>
-        <label for="state">Bundesland</label>
-        <select name="state" id="bundesland">
-          <option value="1">Berlin</option>
-          <option value="1">Bayern</option>
-        </select>
-      </div>
 
-      <label for="description">Beschreibung</label>
-      <textarea id="beschreibung" name="description" class="block-input"></textarea>
+        <label for="timeRange">Zeitraum (Beginn-Ende)</label>
+        <div name="timeRange" id="zeitraum">
 
-      <label><input type="checkbox" id="checkbox" ><a href="#">Nutzungsbediungen</a> akzeptieren</label>
-      <a name="create" class="block-input" id="erstellen" href="/list" >Erstellen</a>
+          <input type="text" name="datum" id="datum" value="10/24/1984" />
 
-    </form>
+        </div>
+        <div>
+          <label for="city">Stadt</label>
+          <select name="city" id="stadt">
+            <option value="1">Berlin</option>
+          </select>
+          <label for="state">Bundesland</label>
+          <select name="state" id="bundesland">
+            <option value="1">Berlin</option>
+            <option value="1">Bayern</option>
+          </select>
+        </div>
+
+        <label for="description">Beschreibung</label>
+        <textarea id="beschreibung" name="description" class="block-input"></textarea>
+
+        <label><input type="checkbox" id="checkbox" ><a href="#">Nutzungsbediungen</a> akzeptieren</label>
+        <a name="create" class="block-input" id="erstellen" href="/list" >Erstellen</a>
+
+      </form>
+    </div>
   </body>
 </html>
 
