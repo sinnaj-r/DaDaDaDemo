@@ -5,7 +5,4 @@ import { Mongo } from 'meteor/mongo';
 
 import './main.html';
 
-
-
-
-
+Meteor.subscribe("Events")
