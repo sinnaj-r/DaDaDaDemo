@@ -4,12 +4,14 @@ Template.Create_demo.events({
         let ueber = $("#ueberschrift").val();
         let besch = $("#beschreibung").val();
 
-        console.log("-----#########")
-        console.log(besch);
+        console.log("-----#########");
 
 
-        let stadt = $("#city").val();
-        let land = $("#state").val();
+
+        let stadtID = $("#stadt").val();
+        let stadt = $("#stadt :selected").text();
+        let landID = $("#bundesland").val();
+        let land = $("#bundesland :selected").text();
         let ortV = [stadt, land];
 
         let datum = $("#datum").val();
@@ -36,8 +38,8 @@ Template.Create_demo.events({
             beschreibung:besch,
             ort:ortV,
             veranstalter:[Meteor.userId()],
-            teilnehmer:[],
-            teilnZahl:0,
+            teilnehmer:[Meteor.userId()],
+            teilnZahl:1,
             kategorie:kat,
             datum:datum,
         }
