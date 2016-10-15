@@ -16,5 +16,11 @@ Meteor.methods({
             throw new Meteor.Error("not-authorized");
         }
         Events.remove(id)
-    }
+    },
+    "join_Event":function(event_id){
+        if(!(Meteor.userId())){
+            throw new Meteor.Error("not-authorized");
+        }
+        Events.update(event_id,{$push: {teilnehmer: Meteor.userId()}})
+    },
 })
