@@ -5,6 +5,7 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "bootstrap-material-design": "^0.5.10",
     "daterangepicker": "0.0.3",
     "meteor-node-stubs": "~0.2.0",
     "moment": "^2.15.1",
