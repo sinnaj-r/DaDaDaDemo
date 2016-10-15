@@ -25,7 +25,8 @@ Template.Suche.events({
         let search_string = $("#search_input").val()
         Session.set("search_string",search_string)
     },
-    "select #bl_select":function(){
+    "change #bl_select":function(){
+        let search_string = $("#bl_select :selected").val()
         Session.set("search_bl",search_string)
     }
 })
