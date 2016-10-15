@@ -12,24 +12,26 @@
     <link href="../../../client/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Demonstration erstellen</h1>
+    <div id="content-wrapper">
+      <h1>Demonstration erstellen</h1>
 
-      <p id="alertTag" style='color:#FF1744;visibility:hidden;"'  class="danger">Ung&uuml;ltige Eingabe!</p>
+        <p id="alertTag" style='color:#FF1744;visibility:hidden;"'  class="danger">Ung&uuml;ltige Eingabe!</p>
 
-    <form action="">
-      <label for="name">Name der Demo*</label>
-      <input id="ueberschrift" type="text" name="name" class="block-input">
 
-      <label for="category">Kategorie*</label>
-      <select name="category" id="kategorie" class="block-input">
-        <option value="cat1">Cat 1</option>
-        <option value="cat2">Cat 2</option>
-      </select>
+      <form action="">
+        <label for="name">Name</label>
+        <input id="ueberschrift" type="text" name="name" class="block-input">
 
-      <label for="timeRange">Zeitraum (Beginn-Ende)*</label>
-      <div name="timeRange" id="zeitraum">
+        <label for="category">Kategorie</label>
+        <select name="category" id="kategorie" class="block-input">
+          <option value="cat1">Cat 1</option>
+          <option value="cat2">Cat 2</option>
+        </select>
 
-        <input type="text" name="datum" id="datum" value="10/24/1984" />
+        <label for="timeRange">Zeitraum (Beginn-Ende)</label>
+        <div name="timeRange" id="zeitraum">
+
+          <input type="text" name="datum" id="datum" value="10/24/1984" />
 
       </div>
       <div>
@@ -55,6 +57,7 @@
 
     </form>
       <p style="font-size:10px;"> Die mit * makierten Felder müssen ausgef&uuml;lt werden. </p>
+
   </body>
 </html>
 
