@@ -23,7 +23,7 @@ Template.Create_demo.events({
         let check = $('#checkbox')[0].checked;
         console.log(check);
 
-        if(ueber === "" || !ueber || besch === "" || !besch || !check){
+        if(ueber === "" || !ueber || besch === "" || !besch || !check || datum === "" || !datum){
             console.log("Ungueltige Eingabe");
             $('#alertTag').css('visibility', 'visible');
             event.preventDefault();
