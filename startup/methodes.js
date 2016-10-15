@@ -23,7 +23,11 @@ Meteor.methods({
         }
         console.log(event_id)
         if(Events.findOne(event_id).teilnehmer.indexOf(Meteor.userId()) < 0){
-            Events.update(event_id,{$push: {teilnehmer: Meteor.userId()}})
+            Events.update(event_id,
+                {$push: {teilnehmer: Meteor.userId()},
+                 $inc: {teilnehmerzahl:1}}
+
+            )
         }
         else{
             console.log("Bereits Teilnehmer")
@@ -35,7 +39,11 @@ Meteor.methods({
         }
         console.log(event_id)
         if(Events.findOne(event_id).teilnehmer.indexOf(Meteor.userId()) >= 0){
-            Events.update(event_id,{$pull: {teilnehmer: Meteor.userId()}})
+            Events.update(event_id,
+                {$pull: {teilnehmer: Meteor.userId()},
+                $inc: {teilnehmerzahl:-1}}
+            )
+
         }
         else{
             console.log("Kein Teilnehmer")
