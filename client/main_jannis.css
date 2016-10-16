@@ -42,4 +42,6 @@ body, html{
 .table .icon{
     margin-left: 40px;
 }
-
+.infobox-content{
+    min-height: 175px;
+}
