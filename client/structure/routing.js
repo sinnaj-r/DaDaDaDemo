@@ -12,6 +12,10 @@ Router.route('/login', function () {
     Session.set("DocumentTitle",'Home');
     this.render('loginButtons');
 });
+Router.route('/debug', function () {
+    Session.set("DocumentTitle",'debug');
+    this.render('debug');
+});
 
 Router.route('/suche', function () {
     Session.set("DocumentTitle",'Suche');

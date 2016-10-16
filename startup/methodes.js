@@ -11,6 +11,12 @@ Meteor.methods({
         }
         Events.update(id,{$set:data})
     },
+    "update_Event_raw":function(id,data_raw){
+        if(!(Meteor.userId()) && data.veranstalter.indexOf(Meteor.userId()) >= 0){
+            throw new Meteor.Error("not-authorized");
+        }
+        Events.update(id,data_raw)
+    },
     "delete_Event":function(id){
         if(!(Meteor.userId()) && data.veranstalter.indexOf(Meteor.userId()) >= 0){
             throw new Meteor.Error("not-authorized");
