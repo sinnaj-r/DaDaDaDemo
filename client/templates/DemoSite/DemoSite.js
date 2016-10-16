@@ -13,7 +13,16 @@ Template.DemoSite.helpers({
     },
      "twitterO":function(){
         return this.twitter.replace('#','');
+    },
+    "veranstalterS":function(){
+        let str = "";
+        $.each(this.veranstalter, function(index,obj){
+            str = str + Meteor.users.findOne(obj).username+ " ";
+            console.log(Meteor.users.findOne(obj).username);
+        })
+        return str;
     }
+
 
 
 })
