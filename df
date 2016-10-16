@@ -1,0 +1,354 @@
+[33mcommit 8bd11d00cbaf42fd659b662bb61fac0a5db64860[m
+Author: GrumpyCat <klara.spring@gmx.de>
+Date:   Sat Oct 15 15:46:54 2016 +0200
+
+    Logo eingefügt
+
+[33mcommit 4f74b6aecfe03f626dc36fb13cec779a33e68c93[m
+Merge: b8b42c2 b225ff2
+Author: GrumpyCat <klara.spring@gmx.de>
+Date:   Sat Oct 15 15:29:32 2016 +0200
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit b225ff27e29416649892085d7c813041deae59c4[m
+Merge: c4afc78 6928917
+Author: elliotpow12 <elliotpow12@t-online.de>
+Date:   Sat Oct 15 15:28:45 2016 +0200
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit b8b42c2815578f2fd15171283ccd3474b4c16c20[m
+Merge: a44e67c 6928917
+Author: GrumpyCat <klara.spring@gmx.de>
+Date:   Sat Oct 15 15:28:19 2016 +0200
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit a44e67c6180fdf8e853c7dc12feb3cdeaa26696d[m
+Merge: b1a864d d06a5c2
+Author: GrumpyCat <klara.spring@gmx.de>
+Date:   Sat Oct 15 15:27:46 2016 +0200
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit 6928917fa5c5eaa65f71db21e5b1bd5004050a3a[m
+Merge: fe9853c d06a5c2
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 06:27:35 2016 -0700
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit fe9853c6a9829061cecc5de3af11f0929fd07cb3[m
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 06:27:30 2016 -0700
+
+    Style demo creation page
+
+[33mcommit c4afc78cd8c5e1df24abc7659cad95f7c47398a4[m
+Author: elliotpow12 <elliotpow12@t-online.de>
+Date:   Sat Oct 15 15:26:49 2016 +0200
+
+    Logo hinzugefügt
+
+[33mcommit d06a5c28a33c188d652c043087727842cd363b85[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 15:26:25 2016 +0200
+
+    Uebersichtlich Demo Detail
+
+[33mcommit b1a864ddf0f2f2de79fa7e36d9d33e01899ec963[m
+Merge: f7cebb0 24a12e6
+Author: GrumpyCat <klara.spring@gmx.de>
+Date:   Sat Oct 15 15:25:43 2016 +0200
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit f7cebb0ac50629e5e69336b2765de06ff2c65e91[m
+Author: GrumpyCat <klara.spring@gmx.de>
+Date:   Sat Oct 15 15:23:09 2016 +0200
+
+    Startseite dazugefügt
+
+[33mcommit 24a12e6530455436f26c03dddbdde421f84f11f6[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 15:18:56 2016 +0200
+
+    ListTest erster Testlauf für DemoList
+
+[33mcommit de855ed47c141e74dae9c3c8349d405913f9da9e[m
+Merge: b082412 f686736
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 15:00:05 2016 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit b082412ccd0d56262c15ef58d8e62ea172b30367[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 14:59:54 2016 +0200
+
+    Demo Detail weiter gemacht
+
+[33mcommit f68673674589c7ccef80af429a860fa139c4ef2e[m
+Merge: 66d4a1c ead02aa
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 14:54:10 2016 +0200
+
+    Merge remote-tracking branch 'GitHub/master'
+
+[33mcommit 66d4a1c4a1e583ffa04915867b741c25dbd64733[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 14:53:58 2016 +0200
+
+    Join Event Methode hinzugefügt
+
+[33mcommit ead02aa0933bbf9c5d880448a668275df5eafc30[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 14:13:47 2016 +0200
+
+    Demo Detail für ein Demo-Detail-Zeile erstelllt
+
+[33mcommit a1dd915d7f31a034730df915928b42aaa7fe756b[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 14:06:28 2016 +0200
+
+    Bootstrap JS deaktiviert
+
+[33mcommit 959d2a6b1cf4f92ab924061f4ecb1666e9c2b759[m
+Merge: 7a99f9c a38a04c
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 14:04:06 2016 +0200
+
+    Merge remote-tracking branch 'GitHub/master'
+
+[33mcommit 7a99f9c7c21d9acfa1651d453c4c6900c273c336[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 14:03:52 2016 +0200
+
+    Textung
+
+[33mcommit a38a04c48dfebf44f253717f79f07308e60269c2[m
+Merge: 89ccb50 c416606
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 05:03:04 2016 -0700
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit 89ccb505b569221941b39c2b916ccb4253dafba4[m
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 05:02:58 2016 -0700
+
+    Add Bootstrap
+
+[33mcommit c4166068211dde21aa589bc99c732e8a25cf5512[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 13:59:21 2016 +0200
+
+    Template Create Demo erstellt
+
+[33mcommit 51a700df101f8a5f04204ac82ca0c392dfa26617[m
+Merge: b33a656 1d5278a
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 13:53:40 2016 +0200
+
+    Merge remote-tracking branch 'GitHub/master'
+    
+    # Conflicts:
+    #	client/main.html
+
+[33mcommit 1d5278a65e836c84ec0491acb98ae6c34afa9c97[m
+Merge: 63604ae 1ad317e
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 04:51:05 2016 -0700
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+    
+    # Conflicts:
+    #	.DS_Store
+    #	.gitignore
+
+[33mcommit 63604ae03e34fd8823fdc5751375b4a360a9cd9e[m
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 04:49:52 2016 -0700
+
+    Add labels
+
+[33mcommit b33a6564782f9cd2dc3db3d3a03b06d95bd323f4[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 13:48:35 2016 +0200
+
+    Routing mit den ersten Routes eingerichtet
+
+[33mcommit 1ad317e69a38b454b7b42bdb4f295adb9479ff94[m
+Merge: c1553f5 477f386
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 13:46:34 2016 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit c1553f5442f561e52744e1915bc616a4b701f757[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 13:45:50 2016 +0200
+
+    Die Eingabe.js Datei hinzugefügt. Und dadrin einFomular bearbeitung für ein Eingabe Fomular
+
+[33mcommit 477f386d174ff011d895203d12815378b0563634[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 13:44:37 2016 +0200
+
+    Neue GitIgnore
+
+[33mcommit 2a0d6e88f7a1e7498d3939f08f5ad51308a52816[m
+Merge: 8a48c31 1f54dc4
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 13:33:52 2016 +0200
+
+    Merge remote-tracking branch 'GitHub/master'
+
+[33mcommit 8a48c31a07624722c55cf3505dee7fed88ec408c[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 13:33:16 2016 +0200
+
+    "Schöneres" Login System und hinzufügen diverser Module
+
+[33mcommit 1f54dc43a778c41eca021a74c2646d8e18066aca[m
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 04:31:58 2016 -0700
+
+    Add basic demo creaton page
+
+[33mcommit f3dfadbd4c3a6639a285b1e81662d1f538b50fcc[m
+Merge: 979eff7 989208d
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 04:03:27 2016 -0700
+
+    Merge branch 'master' of https://github.com/sinnaj-r/DaDaDaDemo
+
+[33mcommit 979eff7acffee5b5c210c88c9037cad4d3ca979d[m
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 04:00:39 2016 -0700
+
+    Add login form
+
+[33mcommit 989208d308cc0e2e2310c3e7156971883875299b[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 12:57:54 2016 +0200
+
+    Datenbank anzeigen
+
+[33mcommit 957ed36590a90209925fc6792111995f6722f8f4[m
+Merge: 785c255 0956cd4
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 12:49:38 2016 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 0956cd44ab199397d6340d368adf51e93ddba55d[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:49:24 2016 +0200
+
+    Musste deinen Ordner kurz verschieben
+
+[33mcommit 785c255e1368c5e3e5d9ef4a440be99af0497a61[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 12:47:41 2016 +0200
+
+    Auskommentiert
+
+[33mcommit d6bcfdb0429ac7858528f4eb6375cc019c2749ea[m
+Merge: f9a8cc5 67967f6
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:44:12 2016 +0200
+
+    Merge remote-tracking branch 'GitHub/master'
+
+[33mcommit f9a8cc55562164ec1ae4e00a17227c2fb2de9d71[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:44:00 2016 +0200
+
+    TestDataGenerierung und Login
+
+[33mcommit 67967f6333b2c977b6099009b9559fcc5cd4ec7b[m
+Merge: 27ddb33 4248e0a
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 12:39:25 2016 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 27ddb33398c04e5f57554e31dd0bc60b0afedbf2[m
+Author: JorisJH <blaublau898@web.de>
+Date:   Sat Oct 15 12:37:45 2016 +0200
+
+    Erster Commit
+
+[33mcommit 4248e0a9cf98cad8d746201b9e6939ce4ac18a60[m
+Author: Lukas Mueller <lamueller@protonmail.com>
+Date:   Sat Oct 15 03:26:12 2016 -0700
+
+    Add blank and create index.html
+
+[33mcommit 281a4f76a104d47ac40bf3ecb4ce5f8488e696c8[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:10:05 2016 +0200
+
+    Erneute BugFixes - sry!
+
+[33mcommit 82fbeb21d8cc9202f596176244ae11747ea3cd9f[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:08:26 2016 +0200
+
+    Kleiner BugFix
+
+[33mcommit 963a682dd76a9617fd0e04dc17da196759d324f2[m
+Merge: a5a1f26 a579995
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:07:15 2016 +0200
+
+    Merge remote-tracking branch 'GitHub/master'
+
+[33mcommit a5a1f269074257f1c4d1120b81bfd405a5db0ca2[m
+Merge: 74b60e1 71cd2fe
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:06:47 2016 +0200
+
+    Merge branch 'Backend'
+
+[33mcommit 71cd2feb682db1de1ef6418643f3fbae244ff35b[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 12:06:23 2016 +0200
+
+    Neue Packete installiert
+
+[33mcommit a57999543bea206847f0fbdd83a2e4c3dc49a977[m
+Merge: 74b60e1 a0c1abb
+Author: sinnaj-r <sinnaj-r@users.noreply.github.com>
+Date:   Sat Oct 15 11:58:46 2016 +0200
+
+    Merge pull request #1 from sinnaj-r/Backend
+    
+    Methodes gemacht und miniBugfix
+
+[33mcommit a0c1abb7ff57a9981b9312fca8058a75421ece2f[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 11:58:11 2016 +0200
+
+    Methodes gemacht und miniBugfix
+
+[33mcommit 74b60e16e7973c7f729c4a0d3e0c60fae1340d8d[m
+Merge: 5002f94 4390596
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 11:41:42 2016 +0200
+
+    Merge remote-tracking branch 'GitHub/master'
+
+[33mcommit 4390596ebdf38e05c633d81b78c674631e4a824a[m
+Author: sinnaj-r <sinnaj-r@users.noreply.github.com>
+Date:   Sat Oct 15 11:39:50 2016 +0200
+
+    Initial commit
+
+[33mcommit 5002f946c05a8b9a0a64fbb1d405a8329a7edb33[m
+Author: Jannis Rosenbaum <j.ro@me.com>
+Date:   Sat Oct 15 11:38:12 2016 +0200
+
+    Initaler Commit
