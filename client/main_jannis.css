@@ -3,12 +3,16 @@
     margin: 20px;
     min-width: 25%;
 }
-.Fusszeile{
+/*
+#Fusszeile{
     position: absolute;
     bottom: 0;
     left: 5px;
 }
-
+*/
+#Kopfzeile{
+    background-color: #d4d4d4 !important;
+}
 .Fusszeile a{
     margin-left: 5px;
     margin-right: 5px;
@@ -45,3 +49,4 @@ body, html{
 .infobox-content{
     min-height: 175px;
 }
+
